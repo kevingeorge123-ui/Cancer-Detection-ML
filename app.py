@@ -10,3 +10,4 @@ df = pd.read_csv("brac.csv")
 st.write("Dataset loaded successfully!")
 
 st.write(df.head())
+
