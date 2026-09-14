@@ -27,4 +27,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     stratify=y
 )
 
+st.write("Training data shape:", X_train.shape)
+st.write("Testing data shape:", X_test.shape)
+
 
