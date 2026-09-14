@@ -7,6 +7,9 @@ st.write("Breast Cancer Detection using Machine Learning")
 
 df = pd.read_csv("brca.csv")
 
+X = df.drop("y", axis=1)
+y = df["y"]
+
 st.write("Dataset loaded successfully!")
 
 st.write(df.head())
