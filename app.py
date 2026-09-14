@@ -15,3 +15,6 @@ st.write("Dataset Shape:", df.shape)
 
 st.write("Column Names:", df.columns.tolist())
 
+st.write("Features:", X.shape)
+st.write("Target:", y.shape)
+
