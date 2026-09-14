@@ -23,6 +23,4 @@ X_train, X_test, y_train, y_test = train_test_split(
     stratify=y
 )
 
-st.write("Features:", X.shape)
-st.write("Target:", y.shape)
 
