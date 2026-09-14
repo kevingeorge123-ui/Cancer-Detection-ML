@@ -11,3 +11,7 @@ st.write("Dataset loaded successfully!")
 
 st.write(df.head())
 
+st.write("Dataset Shape:", df.shape)
+
+st.write("Column Names:", df.columns.tolist())
+
