@@ -15,6 +15,14 @@ st.write("Dataset Shape:", df.shape)
 
 st.write("Column Names:", df.columns.tolist())
 
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.2,
+    random_state=42,
+    stratify=y
+)
+
 st.write("Features:", X.shape)
 st.write("Target:", y.shape)
 
